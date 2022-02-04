@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.card-container{
+    overflow: hidden;
+    box-shadow: 0 0 15px -5px;
+    transition: 0.3s;
+    animation: ease-in-out;
+    border-radius: 15px;
+}
+.card-container:hover{
+    transform: scale(1);
+    box-shadow: 0 0 15px 0px;
+    width: 100%;    
+    left: 0;
+    bottom: 0;
+}
+.image-container {
+    overflow: hidden;
+    height: 250px;
+}
+.image-title{
+    bottom: 50%;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    font-family:Poppins ;
+    text-transform: uppercase ;
+    letter-spacing: 1.5px;
+}
+.card-content{    
+    color: #fff;
+    height: 130px;
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.486);
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    transition: all 0.5s cubic-bezier(.48, -0.28, 0.41, 1.4);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.card-text{
+    margin: 10px 0 0;
+    margin-top: 11px;
+    padding: 1em 1em;
+    transform: translatey(2em);
+    line-height: 1.3em;
+    transition: 0.3s;
+    text-align: justify;
+    text-align: center;
+    font-size: 1rem;
+   
+}
+.card-container:hover .card-text{
+    transform: translateY(0);
+}

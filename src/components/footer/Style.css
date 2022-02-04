@@ -1,0 +1,20 @@
+
+.main-footer {
+    position: relative;
+    background-color: #070707;
+    color: #fff;
+    font-size: 1.5rem;
+    
+}
+
+.footer-content {    
+    position: relative;
+    background-color: #000000;
+    color: #fff;
+    font-size: 1rem;
+}
+.footer-bottom{
+    background-color: #000000;
+    color: #fff;
+}
+

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+section {
+    padding: 0 10rem 0 10rem;
+    display: block;
+}
+.overview-wrapper{
+    background: url("../Image/about-us-background.png");
+}
+.overview-wrapper.about-overview {
+    background-size: cover;
+}
+.overview-wrapper {
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+h2.wrapper-heading {
+    padding-top: 10px;
+    font: 600 50px/1.1 Poppins;
+    
+}
+.head-color {
+    color: #000000 !important;
+}
+.row {
+    display: flex;    
+    flex-wrap: wrap;
+}
+p.overview-copy {
+    letter-spacing: 0.5px;
+    color: #9a9a9a;
+    margin-bottom: 0;
+    font: 300 1.5em/1.9em Poppins;
+}
+.pt--20 {
+    padding-top: 20px;
+}
+@media (max-width: 430px)  {
+    section {
+        padding: 0 3rem 0 3rem;
+        display: block;
+    }
+    h2.wrapper-heading{
+        font: 600 3rem/1.1 Poppins;
+    }
+}
+@media (max-width: 930px)  {
+    section {
+        padding: 0 5rem 0 5rem;
+        display: block;
+        font-size: 0.9rem;
+    }
+    h2.wrapper-heading{
+        font: 600 3rem/1.1 Poppins;
+    }
+}

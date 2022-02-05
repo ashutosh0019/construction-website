@@ -5,7 +5,7 @@ const Contactus = () => {
     return (
         <>
             
-            <Contact />;
+            <Contact />
             
         </>
     );

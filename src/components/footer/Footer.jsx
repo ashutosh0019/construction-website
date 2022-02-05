@@ -21,11 +21,11 @@ const Footer = ({footer}) => {
 
                     {/* <!-- Right --> */}
                     <div>
-                        <NavLink className="me-4 text-reset sm-icon" to="#"><FaFacebookSquare  className="Facebook-footer"/></NavLink>
-                        <NavLink className="me-4 text-reset sm-icon" to="#"><HiMail className="Gmail-footer"/></NavLink>
-                        <NavLink className="me-4 text-reset sm-icon" to="#"><FaWhatsappSquare className="Whatsapp-footer"/></NavLink> 
-                        <NavLink className="me-4 text-reset sm-icon" to="#"><SiGooglemaps  className="Googlemaps-footer"/></NavLink> 
-                        <NavLink className="me-4 text-reset sm-icon" to="#"><BsTelephoneFill className="phone-footer"/></NavLink>            
+                        <a className="me-4 text-reset sm-icon" href="https://www.facebook.com/Sundu-Singh-Groups-102103562266621"><FaFacebookSquare  className="Facebook-footer"/></a>
+                        <a className="me-4 text-reset sm-icon" href="mailto:info@sundusingh.com"><HiMail className="Gmail-footer"/></a>
+                        <a className="me-4 text-reset sm-icon" href="https://wa.me/918882696492"><FaWhatsappSquare className="Whatsapp-footer"/></a> 
+                        <a className="me-4 text-reset sm-icon" href="https://goo.gl/maps/ZZPuV6aWB3BctB4K6"><SiGooglemaps  className="Googlemaps-footer"/></a> 
+                        <a className="me-4 text-reset sm-icon" href="tel:+918882696492"><BsTelephoneFill className="phone-footer"/></a>            
                         
                     </div>
                     {/* <!-- Right --> */}
@@ -68,6 +68,9 @@ const Footer = ({footer}) => {
                             <p>
                                 Interior & Exterior Design
                             </p>
+                            <p>
+                                SITE INSPECTION
+                            </p>
                         </div>
                         {/* <!-- Grid column --> */}
 
@@ -82,6 +85,9 @@ const Footer = ({footer}) => {
                             </p>
                             <p>
                                 <NavLink to="#" className="text-reset">About Us</NavLink>
+                            </p>
+                            <p>
+                                <NavLink to="#" className="text-reset">Project</NavLink>
                             </p>
                             <p>
                                 <NavLink to="#" className="text-reset">Services</NavLink>
@@ -99,7 +105,7 @@ const Footer = ({footer}) => {
                                 Contact
                             </h6>
                             <p><SiGooglemaps  className="Googlemaps-footer"/> Vaishali, Bihar, India</p>
-                            <p><HiMail className="Gmail-footer"/> ss-construction@example.com</p>                                                                  
+                            <p><HiMail className="Gmail-footer"/> info@sundusingh.com</p>                                                                  
                             <p><FaWhatsappSquare  className="Whatsapp-footer"/> +91 659 454 1236</p>
                             <p><BsTelephoneFill className="phone-footer"/> +91 659 454 1236    </p>
                             </div>
@@ -113,7 +119,7 @@ const Footer = ({footer}) => {
                 {/* <!-- Copyright --> */}
                 <div className="text-center p-4 footer-bottom">
                     © 2022 Copyright:
-                    <NavLink className="text-reset fw-bold" to="#">xyz.com</NavLink>
+                    <a className="text-reset fw-bold" href="https://sundusingh.com/">www.sundusingh.com</a>
                 </div>
                 {/* <!-- Copyright --> */}
             </footer>

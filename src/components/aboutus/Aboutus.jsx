@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Aboutus.css";
 const Aboutus=()=> {
-  return <div>
+  return <>
       <section class="overview-wrapper about-overview">
         <div class="container-custom">
           <h2 class="wrapper-heading head-color">About Us</h2>
@@ -25,7 +25,7 @@ const Aboutus=()=> {
           </div>
         </div>
       </section>
-  </div>;
+  </>;
 }
 
 export default Aboutus;

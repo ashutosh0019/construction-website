@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.serv-box2 {
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+    padding: 3.125rem 1.5625rem 1.25rem;
+    z-index: 1;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Poppins ;
+  }
+.icons { 
+    font-size: 5rem;    
+}

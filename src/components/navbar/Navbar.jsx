@@ -26,7 +26,9 @@ const Navbar=()=>{
         <div className="section">
         <nav className="main-nav">
             <div className="logo">
-                <img className="ss-logo" src={require('../Image/ss-black-logo.png')} alt="logo" />    
+                <NavLink to="https://www.sundusingh.com/">
+                    <img className="ss-logo" src={require('../Image/ss-black-logo.png')} alt="logo" />  
+                </NavLink>  
             </div>
             <div className={showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"}>
                 <ul>
@@ -41,31 +43,31 @@ const Navbar=()=>{
             <div className="social-media">
                 <div className="social-media-icon">
                     <ul className="social-media-desktop">
-                        <li>
-                            <NavLink to="#"><FaFacebookSquare  className="Facebook"/></NavLink>                       
+                    <li>
+                            <a href="https://www.facebook.com/Sundu-Singh-Groups-102103562266621"><FaFacebookSquare  className="Facebook"/></a>                       
                             
                         </li>                    
                         <li>
-                            <NavLink to="#"><SiGmail className="Gmail"/></NavLink>                       
+                            <a href="mailto:info@sundusingh.com"><SiGmail className="Gmail"/></a>                       
                             
                         </li>
                         <li>
-                            <NavLink to="#"><FaWhatsappSquare className="Whatsapp"/></NavLink>                       
+                            <a href="https://wa.me/918882696492"><FaWhatsappSquare className="Whatsapp"/></a>                       
                             
                         </li>
                         <li>
-                            <NavLink to="#"><SiGooglemaps  className="Googlemaps"/></NavLink>                       
+                            <a href="https://goo.gl/maps/ZZPuV6aWB3BctB4K6"><SiGooglemaps  className="Googlemaps"/></a>                       
                             
                         </li>
                         <li>
-                            <NavLink to="#"><BsTelephoneFill className="phone"/></NavLink>                       
+                            <a href="tel:+918882696492"><BsTelephoneFill className="phone"/></a>                       
                             
                         </li>
                     </ul>
                 </div>
                 {/* hamburger menu  */}
                 <div className="hamburger-menu">
-                    <a to="#" onClick={() => setShowMediaIcons(!showMediaIcons)}><GiHamburgerMenu /></a>
+                    <NavLink to="#" onClick={() => setShowMediaIcons(!showMediaIcons)}><GiHamburgerMenu className="menu-icon"/></NavLink>
                 </div>
 
             </div>           
@@ -73,8 +75,8 @@ const Navbar=()=>{
         <div className="header">
             <div className="header-content">
                 <ul>
-                    <li><a href="#"><HiMail/> ss-construction@gmail.com</a></li>
-                    <li><a href="#"><BsTelephoneFill/> 91-9632514780</a></li>
+                    <li><a href="mailto:info@sundusingh.com"><HiMail/> info@sundusingh.com</a></li>
+                    <li><a href="tel:+918882696492"><BsTelephoneFill/> 91-8882696492</a></li>
                 </ul>
             </div>
         </div>

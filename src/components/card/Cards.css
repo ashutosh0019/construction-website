@@ -19,10 +19,9 @@
     height: 250px;
 }
 .image-title{
-    bottom: 50%;
+    padding-top: 5%;
     text-align: center;
-    font-size: 17px;
-    font-weight: 700;
+    font-size: 20px;
     font-family:Poppins ;
     text-transform: uppercase ;
     letter-spacing: 1.5px;
@@ -40,18 +39,7 @@
     box-sizing: border-box;
     overflow: hidden;
 }
-.card-text{
-    margin: 10px 0 0;
-    margin-top: 11px;
-    padding: 1em 1em;
-    transform: translatey(2em);
-    line-height: 1.3em;
-    transition: 0.3s;
-    text-align: justify;
-    text-align: center;
-    font-size: 1rem;
-   
-}
+
 .card-container:hover .card-text{
     transform: translateY(0);
 }

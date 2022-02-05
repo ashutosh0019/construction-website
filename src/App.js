@@ -12,7 +12,6 @@ import Services from "./Services";
 import { BrowserRouter as Router, Routes, Route, Navigate, Link } from "react-router-dom";
 import CarouselBootstrap from './components/carousel/CarouselBootstrap';
 import ParticleBackground from "./components/ParticleBackground";
-import WorkingStyle from "./components/working-style/WorkingStyle";
 
 
 const App = () => {
@@ -20,10 +19,9 @@ const App = () => {
   return (
     <> 
     
-    <ParticleBackground />  
+    {/* <ParticleBackground />   */}
     <Navbar/>
-    <CarouselBootstrap/>
-    <WorkingStyle />
+    <CarouselBootstrap/>    
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/About" element={<About/>} />

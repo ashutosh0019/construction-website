@@ -1,5 +1,6 @@
 {
   "name": "construction-website",
+  "homepage": "https://www.sundusingh.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

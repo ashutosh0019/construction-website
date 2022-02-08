@@ -9,6 +9,8 @@ const Projects=()=> {
       
         
           <WorkingStyle/>
+          <h2 className='wrapper-heading head-color'>Our Projects</h2>
+
           <ProjectTab/>
         
       

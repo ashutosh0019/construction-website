@@ -2,7 +2,7 @@
 
 .card-container{
     overflow: hidden;
-    box-shadow: 0 0 15px -5px;
+    /* box-shadow: 0 0 15px -5px; */
     transition: 0.3s;
     animation: ease-in-out;
     border-radius: 15px;
@@ -10,9 +10,9 @@
 .card-container:hover{
     transform: scale(1);
     box-shadow: 0 0 15px 0px;
-    width: 100%;    
+    /* width: 100%;    
     left: 0;
-    bottom: 0;
+    bottom: 0; */
 }
 .image-container {
     overflow: hidden;

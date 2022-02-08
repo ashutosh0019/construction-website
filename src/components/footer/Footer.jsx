@@ -24,7 +24,7 @@ const Footer = ({footer}) => {
                         <a className="me-4 text-reset sm-icon" href="https://www.facebook.com/Sundu-Singh-Groups-102103562266621"><FaFacebookSquare  className="Facebook-footer"/></a>
                         <a className="me-4 text-reset sm-icon" href="mailto:info@sundusingh.com"><HiMail className="Gmail-footer"/></a>
                         <a className="me-4 text-reset sm-icon" href="https://wa.me/918882696492"><FaWhatsappSquare className="Whatsapp-footer"/></a> 
-                        <a className="me-4 text-reset sm-icon" href="https://goo.gl/maps/ZZPuV6aWB3BctB4K6"><SiGooglemaps  className="Googlemaps-footer"/></a> 
+                        <a className="me-4 text-reset sm-icon" href="https://goo.gl/maps/JvGVJTkGktqitGUs7"><SiGooglemaps  className="Googlemaps-footer"/></a> 
                         <a className="me-4 text-reset sm-icon" href="tel:+918882696492"><BsTelephoneFill className="phone-footer"/></a>            
                         
                     </div>
@@ -43,9 +43,12 @@ const Footer = ({footer}) => {
                             <h6 className="text-uppercase fw-bold mb-4">
                                 SS-CONSTRUCTION
                             </h6>
-                            <p>
-                                Here you can use rows and columns to organize your footer content. Lorem ipsum
-                                dolor sit amet, consectetur adipisicing elit.
+                            <p style={{letterSpacing:"1px", fontSize:"10px"}}>
+                            S&S Groups is owned by Civil engineers of Lalganj
+                             city of Vaishali district, Bihar. Designing and 
+                             construction wing registered as S&S Construction.
+                              We have a team of experienced Civil & structure engineers 
+                              and interior designers. Call us for more details.
                             </p>
                         </div>
                         {/* <!-- Grid column --> */}
@@ -106,8 +109,8 @@ const Footer = ({footer}) => {
                             </h6>
                             <p><SiGooglemaps  className="Googlemaps-footer"/> Vaishali, Bihar, India</p>
                             <p><HiMail className="Gmail-footer"/> info@sundusingh.com</p>                                                                  
-                            <p><FaWhatsappSquare  className="Whatsapp-footer"/> +91 659 454 1236</p>
-                            <p><BsTelephoneFill className="phone-footer"/> +91 659 454 1236    </p>
+                            <p><FaWhatsappSquare  className="Whatsapp-footer"/> +91-888 2696 492</p>
+                            <p><BsTelephoneFill className="phone-footer"/> +91-888 2696 492 </p>
                             </div>
                             {/* <!-- Grid column --> */}
                         </div>

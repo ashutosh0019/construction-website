@@ -7,7 +7,7 @@ function WorkingStyle() {
     <section>
         <div className="background-content">
         <div className="container">
-            
+            <h2 className='wrapper-heading head-color'>Why You Choose Us</h2>
             <div className="serv-wrap text-center w-100">
                 <div className="row res-caro2">
                     <div className="col-md-4 col-sm-6 col-lg-3">
@@ -25,7 +25,7 @@ function WorkingStyle() {
                             <i className="icons"><BiSmile className='iocn'/></i>
                             <div className="serv-box-inner">
                                 <h3 className="mb-3">Happy Client</h3>
-                                <p className="mb-0">With a clear vision of perfection, we have ensured transparency in all our endeavours<br /> &nbsp;</p>
+                                <p className="mb-0">Our customer requirement is the first policy, we have ensured transparency in all our endeavours<br /> &nbsp;</p>
 
                             </div>
                         </div>
@@ -35,7 +35,7 @@ function WorkingStyle() {
                             <i className="icons"><MdPerson className='iocn'/></i>
                             <div className="serv-box-inner">
                                 <h3 className="mb-3">Experienced Engineer </h3>
-                                <p className="mb-0">That which remains integral to muskan core principles is to adhere to our moral and ethical code</p>
+                                <p className="mb-0">Professional team that believes in a Customer First policy. We design and deliver one of the best</p>
 
                             </div>
                         </div>
@@ -45,7 +45,7 @@ function WorkingStyle() {
                             <i className="icons"><BiRupee className='iocn'/></i>
                             <div className="serv-box-inner">
                                 <h3 className="mb-3">Value For Money</h3>
-                                <p className="mb-0">Our ability to deliver on time and maintain perfection in all our endeavours gives is the potential to help our customer </p>
+                                <p className="mb-0">We make what you want under the best price. Assured great homes at the best value for money </p>
 
                             </div>
                         </div>

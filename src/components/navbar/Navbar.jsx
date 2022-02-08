@@ -24,7 +24,7 @@ const Navbar=()=>{
     return (
         <>
         <div className="section">
-        <nav className="main-nav">
+        <nav  className="main-nav">
             <div className="logo">
                 <NavLink to="https://www.sundusingh.com/">
                     <img className="ss-logo" src={require('../Image/ss-black-logo.png')} alt="logo" />  
@@ -32,12 +32,12 @@ const Navbar=()=>{
             </div>
             <div className={showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"}>
                 <ul>
-                    <li className={splitLocation[1] === "" ? "menu-active" : ""}><NavLink className="nav-bar" to="/"><spna className="post-title" >HOME</spna></NavLink></li>
-                    <li className={splitLocation[1] === "About" ? "menu-active" : ""}><NavLink className="nav-bar" to="/About"><spna className="post-title" >ABOUT US</spna></NavLink></li>
-                    <li className={splitLocation[1] === "Project" ? "menu-active" : ""}><NavLink className="nav-bar" to="/Project"><spna className="post-title" >PROJECT</spna></NavLink></li>
+                    <li className={splitLocation[1] === "" ? "menu-active" : ""}><a className="nav-bar" href="/"><spna className="post-title" >HOME</spna></a></li>
+                    <li className={splitLocation[1] === "About" ? "menu-active" : ""}><a className="nav-bar" href="/About"><spna className="post-title" >ABOUT US</spna></a></li>
+                    <li className={splitLocation[1] === "Project" ? "menu-active" : ""}><a className="nav-bar" href="/Project"><spna className="post-title" >PROJECT</spna></a></li>
 
-                    <li className={splitLocation[1] === "Services" ? "menu-active" : ""}><NavLink className="nav-bar" to="/Services"><spna className="post-title" >SERVICES</spna></NavLink></li>
-                    <li className={splitLocation[1] === "Contact" ? "menu-active" : ""}><NavLink className="nav-bar" to="/Contact"><spna className="post-title" >CONTACT US</spna></NavLink></li>
+                    <li className={splitLocation[1] === "Services" ? "menu-active" : ""}><a className="nav-bar" href="/Services"><spna className="post-title" >SERVICES</spna></a></li>
+                    <li className={splitLocation[1] === "Contact" ? "menu-active" : ""}><a className="nav-bar" href="/Contact"><spna className="post-title" >CONTACT US</spna></a></li>
                 </ul>                
             </div>
             <div className="social-media">
@@ -56,7 +56,7 @@ const Navbar=()=>{
                             
                         </li>
                         <li>
-                            <a href="https://goo.gl/maps/ZZPuV6aWB3BctB4K6"><SiGooglemaps  className="Googlemaps"/></a>                       
+                            <a href="https://goo.gl/maps/JvGVJTkGktqitGUs7"><SiGooglemaps  className="Googlemaps"/></a>                       
                             
                         </li>
                         <li>
@@ -66,10 +66,11 @@ const Navbar=()=>{
                     </ul>
                 </div>
                 {/* hamburger menu  */}
+                {/* <Navbar expand="sm" collapseOnSelect> */}
                 <div className="hamburger-menu">
-                    <NavLink to="#" onClick={() => setShowMediaIcons(!showMediaIcons)}><GiHamburgerMenu className="menu-icon"/></NavLink>
+                    <NavLink to="#"  onClick={() => setShowMediaIcons(!showMediaIcons)}><GiHamburgerMenu className="menu-icon"/></NavLink>
                 </div>
-
+                {/* </Navbar> */}
             </div>           
         </nav>
         <div className="header">

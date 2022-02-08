@@ -47,7 +47,7 @@ const Contact=()=> {
                             
                         </li>
                         <li>
-                            <a href="https://goo.gl/maps/ZZPuV6aWB3BctB4K6"><SiGooglemaps  className="Googlemaps-contact"/></a>                       
+                            <a href="https://goo.gl/maps/JvGVJTkGktqitGUs7"><SiGooglemaps  className="Googlemaps-contact"/></a>                       
                             
                         </li>
                         <li>

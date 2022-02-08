@@ -17,7 +17,7 @@ section {
 h2.wrapper-heading {
     padding-top: 10px;
     font: 600 50px/1.1 Poppins;
-    
+    text-align: center;
 }
 .head-color {
     color: #000000 !important;

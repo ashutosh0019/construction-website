@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import { Carousel } from 'react-bootstrap';
 import { ActivityData } from './ActivityData';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 import "./Activity.css";
@@ -20,7 +19,7 @@ const Activity = ({slides}) => {
 
   return (
     <section className='activity-section'>
-      <h2 className="wrapper-heading head-color">Our Activity</h2>
+      <h2 className="wrapper-heading head-color">Our Working Gallery</h2>
       <div className="slider">
         <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide}/>
         <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide}/>

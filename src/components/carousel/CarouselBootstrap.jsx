@@ -39,7 +39,7 @@ const CarouselBootstrap = () => {
             />
             <Carousel.Caption className='caption-content'>
               <h3>INTERIOR AND EXTERIOR DESIGN</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -50,8 +50,8 @@ const CarouselBootstrap = () => {
             />
 
             <Carousel.Caption className='caption-content'>
-              <h3>2D 3D PLAN DESIGN</h3>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              <h3>2D & 3D PLAN DESIGN</h3>
+              {/* <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>

@@ -12,7 +12,13 @@ import Hajipur1 from "./components/onGoingProject/image/hajipur1.jpg";
 import Hajipur2 from "./components/onGoingProject/image/hajipur2.jpg";
 import Unknown1 from "./components/onGoingProject/image/unknown1.jpg";
 import Unknown2 from "./components/onGoingProject/image/unknown2.jpg";
+import NewDelhi1 from "./components/onGoingProject/image/newDelhi.jpeg";
 const Pdata  =  [
+    {
+        imgsrc: NewDelhi1,
+        title: "Office, New Delhi",
+    },
+    
     {
         imgsrc: Unknown2,
         title: "G+3 RESIDENTIAL & COMMERECIAL BUILDING, lALGANJ ",
